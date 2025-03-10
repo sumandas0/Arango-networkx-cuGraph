@@ -1,0 +1,61 @@
+{
+  "total_nodes": 50028,
+  "total_edges": 607312,
+  "node_types": {
+    "topic": 38,
+    "schema": 1764,
+    "workflow": 7208,
+    "job": 7160,
+    "bucket": 2,
+    "table": 1986,
+    "column": 13460,
+    "view": 1889,
+    "model": 4732,
+    "source": 4694,
+    "measure": 1385,
+    "metric": 1453,
+    "dashboard": 1451,
+    "report": 1449,
+    "dimension": 1357
+  },
+  "edge_types": {
+    "parent_child": 217941,
+    "source_to_target": 101588,
+    "consumes": 3632,
+    "populates": 7041,
+    "depends_on": 31475,
+    "runs": 33513,
+    "transforms": 46038,
+    "produces": 22396,
+    "references": 50322,
+    "filters": 27159,
+    "enriches": 27100,
+    "aggregates": 32480,
+    "joins": 6627
+  },
+  "team_nodes": {
+    "team_1": 7177,
+    "team_2": 7093,
+    "team_3": 7254,
+    "team_6": 14352,
+    "team_4": 7076,
+    "team_5": 7076
+  },
+  "data_source_nodes": {
+    "kafka": 76,
+    "airflow": 14358,
+    "s3": 2,
+    "arangodb": 7268,
+    "dbt": 14153,
+    "tableau": 7077,
+    "mysql": 7076,
+    "powerbi": 8,
+    "snowflake": 10
+  },
+  "popularity_distribution": {
+    "heavy_usage (70-100)": 10005,
+    "moderate_usage (40-69)": 5002,
+    "light_usage (1-39)": 10005,
+    "no_usage (-1)": 25016
+  }
+}
